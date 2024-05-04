@@ -1,28 +1,4 @@
-# yo-iwamoto/my-next-template
+# sample-code-rsc-preload-pattern
 
-My personal boilerplate for Next.js.
-
-# Stack
-
-- Next.js
-  - App Router
-  - logging.fetches.fullUrl: true
-  - ignore eslint, typescript error on build
-  - experimental: typedRoutes, turbo
-  - Docker (based on official example)
-- Biome
-- Storybook 8
-- Vitest
-- shadcn/ui
-- Tailwind CSS
-- Prisma
-- CI
-
-# Setup
-
-```zsh
-nodenv install --skip-existing && \
-  corepack enable && \
-  corepack prepare --activate && \
-  nodenv rehash
-```
+以下の記事のサンプルコード置き場
+https://zenn.dev/you_5805/articles/rsc-preload-pattern
